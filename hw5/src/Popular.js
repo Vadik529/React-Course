@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { fetchPopularRepos } from "./api";
+import { fetchPopularRepos } from "./requests";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const languages = ["All", "JS", "Ruby", "Java", "CSS", "Python"];
